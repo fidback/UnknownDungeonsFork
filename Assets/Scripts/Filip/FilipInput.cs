@@ -4,7 +4,6 @@ using System.Collections;
 public class FilipInput : MonoBehaviour 
 {		
 	private FilipState m_filipState;
-	private bool pausa = false;
 
 	void Awake () 
 	{

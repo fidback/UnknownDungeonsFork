@@ -1,0 +1,3 @@
+La ubicación de las imágenes éstas de los créditos y la ayuda y demás, está hardcodeada en los scripts respectivos, así que no se pueden mover de aquí sin cambiar los scripts.
+
+TODO: cambiar eso, coger los sprites por referencia en una public variable.

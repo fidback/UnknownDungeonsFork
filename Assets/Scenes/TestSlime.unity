@@ -519,6 +519,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &113202525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,7 +1696,7 @@ MonoBehaviour:
   m_coins: 0
   m_equippedWeapon: 0
   m_arrow: {fileID: 400000, guid: 40e398625bdee1c44aaf0eedfa5692d8, type: 2}
-  m_arrowStart: 8
+  m_arrowStart: 10
   m_arrowLvl: 1
   m_swordSwing: {fileID: 400000, guid: d799cecc53ef21f44b16ef0aef6e15f1, type: 2}
   m_swordRange: 16
@@ -2037,6 +2038,7 @@ MonoBehaviour:
   m_enemyList: []
   m_enemyCount: 0
   m_doorList: []
+  m_rooms: 0
 --- !u!4 &316242525
 Transform:
   m_ObjectHideFlags: 0
@@ -4050,6 +4052,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &637448296
 Prefab:
   m_ObjectHideFlags: 0
@@ -7883,6 +7886,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1275167662
 GameObject:
   m_ObjectHideFlags: 0
@@ -8920,6 +8924,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1484822039
 GameObject:
   m_ObjectHideFlags: 0
@@ -11189,6 +11194,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &1944593217
 MonoBehaviour:
   m_ObjectHideFlags: 0

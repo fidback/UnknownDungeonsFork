@@ -22,7 +22,6 @@ public class Arrow : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D p_collider)
 	{
-		//print ("Collision!");
 		if (p_collider.gameObject.tag == "Enemy")
 		{
 			p_collider.gameObject.SendMessage( "ApplyDamage", m_damage );
@@ -32,10 +31,8 @@ public class Arrow : MonoBehaviour
 
 	void OnCollisionEnter2D (Collision2D p_collision)
 	{
-		print ("Collision!");
 		if (p_collision.gameObject.layer == LayerMask.NameToLayer("Walls"))
 		{
-			print ("Pared!");
 			Destroy(this.gameObject);
 		}
 	}
